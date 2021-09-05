@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body {
+    text-align: center;
+    font-family: 'Kaisei HarunoUmi', serif;
+    background-color: #283593;
+    color: #e3f2fd;
+}
+label {
+    display: block;
+    font-size: larger;
+    color: #fafafa;
+}
+#loading {
+    display: none;
+    width:13rem;
+    height:13rem;
+}
+
+button{
+    margin-bottom: 2rem;
+    font-size: medium;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width:100%;
+    font-family: 'Kaisei HarunoUmi', serif;
+    margin-top: 1rem;
+    background-color: #89B6A5;
+    border:0px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+#output {
+    font-size: x-large;
+    margin-bottom: 1.8rem;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+img {
+    margin:auto !important;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+input {
+    padding:0.5rem;
+    width:100%;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    background-color: #c5cae9;
+    border:1px solid #c5cae9;
+    border-radius: 0.3rem;
+}
+
+#container-align {
+    width:40%;
+    margin:auto;
+    text-align:left;
+}
+
+@media only screen and (max-width: 600px) {
+    #container-align {
+      width:80%;
+    }
+  }
+
+
+
